@@ -3,3 +3,4 @@ pytest-cov
 pylint
 black
 ipython==8.13.2
+click
