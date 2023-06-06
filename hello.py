@@ -11,4 +11,4 @@ def more_goodbye():
 # var = var
 
 # This is a bad syntax
- foo=
+# foo=
