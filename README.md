@@ -9,15 +9,16 @@ This is learning python project for tts devops2023
 * จากนั้นรันคำสั่ง `source ~/.venv/bin/activate` หรือ `source venv.sh`
 * แล้วค่อยรัน run `make all`
 
+
+ตัวอย่าง venv.sh แบบง่าย
+
 ```
-หรือเขียนเป็น venv.sh
 #!/usr/bin/env bash
 
 python3 -m venv ~/.venv
 echo "source ~/.venv/bin/activate" >> .bashrc
 
 source ~/.venv/bin/activate
-
-save แล้วสั่งรัน
-source venv.sh
 ```
+
+
