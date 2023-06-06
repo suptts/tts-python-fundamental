@@ -3,12 +3,13 @@
 # tts-python-fundamental
 This is learning python project for tts devops2023
 
+* ให้ clone project มาที่เครื่องเรา `git clone https://github.com/suptts/tts-python-fundamental.git`
+* เข้าไปใน project folder `cd tts-python-fundamental`
+* ให้ Create a Python Virtual Environment ด้วยคำสั่ง `python3 -m venv ~/.venv` หรือ `virtualenv ~/.venv` 
+* จากนั้นรันคำสั่ง `source ~/.venv/bin/activate` หรือ `source venv.sh`
+* แล้วค่อยรัน run `make all`
 
-Create a virtualenv: `virtualenv ~/.venv`
-edit `vim ~/.bashrc` 
-add this code: `source ~/.venv/bin/activate`
-clone project then run `make all`
-
+```
 หรือเขียนเป็น venv.sh
 #!/usr/bin/env bash
 
@@ -19,3 +20,4 @@ source ~/.venv/bin/activate
 
 save แล้วสั่งรัน
 source venv.sh
+```
